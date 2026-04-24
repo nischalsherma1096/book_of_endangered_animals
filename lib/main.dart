@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Endangered Animals",
       debugShowCheckedModeBanner: false,
-      home: StartupPage(nextPage: Page1()), // Changed this line
+      home: StartupPage(nextPage: Page1()),
     );
   }
 }
